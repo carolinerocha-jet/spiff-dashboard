@@ -1,0 +1,64 @@
+name: Update SPIFF Dashboard
+
+on:
+  # Runs every Monday at 8:00 AM UTC
+  schedule:
+    - cron: '0 8 * * 1'
+  
+  # Allows manual trigger from GitHub Actions tab
+  workflow_dispatch:
+
+jobs:
+  update-dashboard:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          pip install pandas plotly
+      
+      - name: Download latest SPIFF export
+        run: |
+          # TODO: Replace with your actual CSV download method
+          # Option 1: Download from URL
+          # curl -H "Authorization: Bearer ${{ secrets.SPIFF_API_TOKEN }}" \
+          #      -o tickets.csv https://your-spiff-url/export
+          
+          # Option 2: Use existing file (manual upload)
+          # Just make sure tickets.csv is in the repo
+          
+          echo "⚠️ You need to configure CSV download in .github/workflows/update-dashboard.yml"
+          echo "For now, using the example CSV file if it exists"
+          
+      - name: Generate dashboard
+        run: |
+          python generate_spiff_report.py tickets.csv
+      
+      - name: Post Slack notification (optional)
+        if: success()
+        run: |
+          # Uncomment and configure to post Slack report
+          # curl -X POST -H 'Content-type: application/json' \
+          #      --data "{\"text\":\"$(cat slack_report.txt)\"}" \
+          #      ${{ secrets.SLACK_WEBHOOK_URL }}
+          echo "Slack notification skipped - configure webhook in repo secrets"
+      
+      - name: Commit and push changes
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add spiff_dashboard.html slack_report.txt
+          
+          # Only commit if there are changes
+          git diff --staged --quiet || git commit -m "📊 Update dashboard - $(date +'%Y-%m-%d')"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
