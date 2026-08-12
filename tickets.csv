@@ -1,9 +1,12 @@
 ﻿Ticket Number,Subject,Status,Created By,Created At,Resolved At,Hours To Resolution,Assigned To
-200000002299,AsaSushi - not visible in target realization on August,New,Błażej Domaradzki,2026-08-10 00:43:09 -0600,,,
-200000002297,Need to see my Acquisition Spiff,New,Florian Millonig,2026-08-07 08:10:55 -0600,,,
-200000002295,Missing Activation,New,Inga Schneidt,2026-08-07 05:09:18 -0600,,,
-200000002294,deal missed ,New,Katarzyna Czyżewska,2026-08-07 03:07:06 -0600,,,
-200000002290,Wrong number of Active Online Partners #2,New,Ines Nell,2026-08-06 05:01:41 -0600,,,"""Yogeshwarie Naidoo"""
+200000002306,Missing online,New,Rob Duckworth,2026-08-11 08:51:07 -0600,,,"""Javier Ortega"""
+200000002303,Missing opp: Pizza doner huis &  Bakthar ,New,Maartje van den Broek,2026-08-10 08:31:51 -0600,,,"""Tom Wouter Bijl"""
+200000002302,All accounts received a score of 1.0 which is not correct,New,Anthony Van Langenhove,2026-08-10 07:21:46 -0600,,,"""Tom Wouter Bijl"""
+200000002299,AsaSushi - not visible in target realization on August,New,Błażej Domaradzki,2026-08-10 00:43:09 -0600,,,"""Tom Wouter Bijl"""
+200000002297,Need to see my Acquisition Spiff,New,Florian Millonig,2026-08-07 08:10:55 -0600,,,"""Javier Ortega"""
+200000002295,Missing Activation,Resolved,Inga Schneidt,2026-08-07 05:09:18 -0600,2026-08-12 01:26:39 -0600,116,"""Yogeshwarie Naidoo"""
+200000002294,deal missed ,New,Katarzyna Czyżewska,2026-08-07 03:07:06 -0600,,,"""Tom Wouter Bijl"""
+200000002290,Wrong number of Active Online Partners #2,Resolved,Ines Nell,2026-08-06 05:01:41 -0600,2026-08-12 01:38:15 -0600,141,"""Yogeshwarie Naidoo"""
 200000002289,Payment Curve for underperformance,New,Ines Nell,2026-08-06 04:58:49 -0600,,,"""Yogeshwarie Naidoo"""
 200000002288,onlines not showing ,New,Chloe Hanna,2026-08-06 03:14:41 -0600,,,"""Javier Ortega"""
 200000002287,19009949,New,Patrycja Okońska,2026-08-06 00:43:39 -0600,,,"""Tom Wouter Bijl"""
@@ -117,8 +120,8 @@
 200000002128,Personal Metric Target Change - Carolin Petters & Nicola Marin,Resolved,Francis Stefanowski,2026-07-20 06:19:26 -0600,2026-08-03 08:15:33 -0600,338,"""Yogeshwarie Naidoo"""
 200000002127,19009345,Resolved,Patrycja Okońska,2026-07-20 03:15:08 -0600,2026-07-27 07:37:21 -0600,172,"""Tom Wouter Bijl"""
 200000002125,Missing Overview of Target Achievement in SPIFF,Resolved,Ines Nell,2026-07-20 01:56:04 -0600,2026-07-22 08:11:15 -0600,54,"""Yogeshwarie Naidoo"""
-200000002124,"Kevin Müller is still entitled to a guaranteed share, as he is a new hire.",In Progress,Dominik Rutz,2026-07-20 01:24:32 -0600,,,"""Javier Ortega"""
-200000002123,Kevin Müller is still due a share of the guarantee,In Progress,Dominik Rutz,2026-07-20 01:21:19 -0600,,,"""Javier Ortega"""
+200000002124,"Kevin Müller is still entitled to a guaranteed share, as he is a new hire.",Resolved,Dominik Rutz,2026-07-20 01:24:32 -0600,2026-08-11 06:52:17 -0600,533,"""Javier Ortega"""
+200000002123,Kevin Müller is still due a share of the guarantee,Resolved,Dominik Rutz,2026-07-20 01:21:19 -0600,2026-08-11 06:52:10 -0600,534,"""Javier Ortega"""
 200000002121,Missing Team Members,Resolved,Bernhard Riggenbach,2026-07-20 00:00:48 -0600,2026-07-30 03:57:29 -0600,244,"""Javier Ortega,Yogeshwarie Naidoo"""
 200000002120,Change target,Resolved,Stefan Wyss,2026-07-18 13:30:58 -0600,2026-07-28 07:35:59 -0600,234,"""Javier Ortega"""
 200000002119,Change target,Resolved,Stefan Wyss,2026-07-18 13:30:33 -0600,2026-07-28 07:32:20 -0600,234,"""Javier Ortega"""
