@@ -1,24 +1,24 @@
-:ticket: SPIFF Ticket Report – Week 33 (Aug 10 - Aug 16)
+:ticket: SPIFF Ticket Report – Week 34 (Aug 17 - Aug 23)
 
 :rotating_light: ACTION REQUIRED:
 
-4 tickets in NEW status > 3 days
-4 tickets in IN PROGRESS status > 7 days
+7 tickets in NEW status > 3 days
+1 tickets in IN PROGRESS status > 7 days
 
 
 :clock-stopwatch: Oldest Open Tickets:
-1. #200000002112: Target discrepancy – rep Matthew Lees
+1. #200000002280: team August 2026
 → Status: In Progress
-→ Assigned: @javierortega
-→ Open for 33 days
+→ Assigned: @tomwouterbijl
+→ Open for 19 days
 
-2. #200000002255: New Team Member: Salvatore Punturello
-→ Status: In Progress
+2. #200000002288: onlines not showing 
+→ Status: New
 → Assigned: @javierortega
-→ Open for 14 days
+→ Open for 18 days
 
-3. #200000002273: Vacant Portfolio Achievements not counted
-→ Status: In Progress
-→ Assigned: @javierortega @ashithnambiar
+3. #200000002306: Missing online
+→ Status: New
+→ Assigned: @javierortega
 → Open for 13 days
 
