@@ -1,4 +1,4 @@
-:ticket: SPIFF Ticket Report – Week 42 (Oct 12 - Oct 18)
+:ticket: SPIFF Ticket Report – Week 43 (Oct 19 - Oct 25)
 
 :rotating_light: ACTION REQUIRED:
 
@@ -10,15 +10,15 @@
 1. #200000002306: Missing online
 → Status: In Progress
 → Assigned: @javierortega
-→ Open for 69 days
+→ Open for 76 days
 
 2. #200000002322: Holiday was not recognised
 → Status: In Progress
 → Assigned: @lucybaker @javierortega
-→ Open for 62 days
+→ Open for 69 days
 
 3. #200000002334: Region
 → Status: In Progress
 → Assigned: @lucybaker @javierortega
-→ Open for 60 days
+→ Open for 67 days
 
